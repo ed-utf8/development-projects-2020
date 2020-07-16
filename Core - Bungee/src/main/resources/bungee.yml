@@ -1,0 +1,5 @@
+name: BungeeCorePlugin
+main: gg.hound.bungeecore.BungeeCorePlugin
+version: BETA-0.1
+author: TomTomPlaysGames / utf_8
+description: Main network plugin (BungeeSide).

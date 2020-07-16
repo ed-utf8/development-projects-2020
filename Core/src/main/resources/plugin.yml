@@ -1,0 +1,142 @@
+name: HoundCore
+main: gg.hound.core.CorePlugin
+version: ALPHA-0.1
+authors: [utf_8, TomTomPlaysGames]
+commands:
+  staffchat:
+    usage: /<command>
+    description: Lets Staff talk to eachother ingame across servers.
+    aliases: [mc, modchat]
+  adminchat:
+    aliases: [ownerchat, devchat, ac]
+  announce:
+    usage: /<command>
+    description: Allows Senior Staff to broadcast a message acrosss the network.
+    aliases: [acc, alert, broadcast]
+  announceuhc:
+    usage: /<command>
+    description: Allows Staff to broadcast a UHC Match acrosss the network.
+    aliases: [accuhc, alertuhc, broadcastuhc]
+  message:
+    usage: /<command>
+    description: Allows players to message their friends on there server.
+    aliases: [m, msg, w, tell, t]
+  reply:
+    usage: /<command>
+    description: Allows players to message their friends on there server.
+    aliases: [r, rep, wt, rtell, rt]
+  disguise:
+    usage: /<command>
+    description: Allows Famous players to disguise.
+    aliases: [d, dis, nick]
+  undisguise:
+    usage: /<command>
+    description: Allows Famous players to disguise.
+    aliases: [ud, udis, unnick]
+  disguisecheck:
+    usage: /<command>
+    description: Allows Staff to list famous disguises.
+    aliases: [cd, cdis, checkdisguise]
+  disguiselist:
+    usage: /<command>
+    description: Allows Famous players to disguise.
+    aliases: [dl, listdisguise, listd]
+  chatclear:
+    usage: /<command>
+    description: Allows staff to cleat the chat.
+    aliases: [cc, clearchat]
+  report:
+    usage: /<command>
+    description: Allows Users to report users to staff memebers.
+  globalmute:
+    usage: /<command>
+    description: Allows staff to mute the ingame chat of their current server.
+    aliases: [mutechat, chatmute, gm]
+  permissions:
+    usage: /<command>
+    description: Allows you to set users to groups. (Admin)
+    aliases: [group, perms, rank]
+  listgroups:
+    usage: /<command>
+    description: Allows you to see avalible groups
+    aliases: [grouplist, pexlist, permslist]
+  globalreboot:
+    usage: /<command>
+  addskin:
+    usage: /<command>
+    description: Allows admins to add disguises to the network.
+  discord:
+    usage: /<command>
+    description: Allows users to link discord to minecraft.
+    aliases: [linkdiscord, linkdc]
+  staffnotifications:
+    usage: /<command>
+    description: Allows staff to toggle notifications.
+    aliases: [stfu, sn]
+  pmtoggle:
+    usage: /<command>
+    description: Allows users to toggle pms
+    aliases: [msgtoggle, togglepm]
+  ban:
+    usage: /<command>
+    description: Ban lol what more do you want
+  consoleunban:
+    usage: /<command>
+    description: Unban but for console
+  consoleban:
+    usage: /<command>
+    description: Ban but for console
+  consoleunmute:
+    usage: /<command>
+    description: Unmute but for console
+  unban:
+    usage: /<command>
+    description: For when you've banned someone and need to undo it
+  mute:
+    usage: /<command>
+    description: Hit that phat mute
+  unmute:
+    usage: /<command>
+    description: lol cba
+  kick:
+    usage: /<command>
+    description: fuck off
+  fakeop:
+    usage: /<command>
+    description: nonce
+  lookup:
+    usage: /<command>
+    description: Lookup players punishments.
+  ips:
+    usage: /<command>
+    description: Lookup players alt accounts.
+    aliases: [alts, alt, accounts, lips]
+  info:
+    usage: /<command>
+    description: Lookup server info
+    aliases: [serverstats, serverinfo]
+  banip:
+    usage: /<command>
+    description: more than the Ban you wanted
+  unbanip:
+    usage: /<command>
+    description: For when you've banned someones ip and need to undo it
+  userinfo:
+    usage: /<command>
+    description: Search database for user info
+    aliases: [userinfos, uinfo, useri, userinformation]
+  slookup:
+    usage: /<command>
+    description: Search database for user info
+    aliases: [stafflookup, lookupstaff]
+  nextloc:
+    usage: /<command>
+  ignore:
+    usage: /<command>
+  opplayer:
+    usage: /<command>
+  automute:
+    usage: /<command>
+  colour:
+    usage: /<command>
+    aliases: [color]

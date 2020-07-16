@@ -1,0 +1,15 @@
+{
+  "name": "playlive",
+  "version": "1.0.0",
+  "description": "Play live's JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "utf_8",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*"
+  }
+}

@@ -1,0 +1,8 @@
+name: WorldGenerator
+main: gg.hound.speed.SpeedUHC
+version: BETA-0.1
+author: utf_8
+
+commands:
+  showmethemoney:
+    usage: /<command>

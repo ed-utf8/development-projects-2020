@@ -1,0 +1,9 @@
+name: Arena
+main: gg.hound.arena.Arena
+version: ALPHA-0.1
+author: utf_8
+commands:
+  save:
+    usage: /<command>
+  spec:
+    usage: /<command>
